@@ -1,0 +1,9 @@
+/* This is a comment */
+body{
+    background-color: #0CEC98;
+}
+
+/* This is another comment */
+.wrapper{
+    border: 10px dotted red;
+}
