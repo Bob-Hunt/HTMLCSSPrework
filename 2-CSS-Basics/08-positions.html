@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link rel="stylesheet" type="text/css" href="08-positions.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <p>This div has a fixed position.</p>
+        </div>
+        <div class="positioning">
+            <br>
+            <h1>Position</h1>
+            <p>
+                The position property specifies the type of positioning method used for an element. The four position values are:
+            </p>
+            <ul>
+                <li>
+                    <b>fixed: </b>
+                    This will pin something to a spot, and it will stay there as you scroll. (ex: nav bar) Fixed position takes elements out of the normal document flow.
+                </li>
+                <li>
+                    <b>static: </b>
+                    This is the default setting, it is not affected by top, bottom, left, and right properties. It is always positioned according to the normal flow of the page.
+                </li>
+                <li>
+                    <b>relative: </b>
+                    This does not take the element out of normal document flow. Still appears within its space/div/container, but allows it to be offset a bit from the top, bottom, left, right. Top, right, bottom, and left properties will move it away from its normal postition. Other content will not be adjusted to fit into any gap left by the element.
+                </li>
+                <li>
+                    <b>absolute: </b>
+                    This takes the element out of the normal document flow. If a parent element position is set to relative, and the child element is set to absolute, the child element's new (0,0) coordinate will be the upper left hand corner of the parent element instead of the whole page.
+                </li>
+                <br/>
+            </ul>
+            <br>
+            <p>The <b>z-index</b>
+                property allows you to override the normal stacking order of the page. The default z-index is 0,
+                and you can set that valued to be positive or negative.
+                An element with a greater z-index will show up on top. 
+                You must have a position (ablsolute/relative/fixed) assigned in order to assign a z-index.
+            </p>
+            <br>
+        </div>
+        <div class="lotsoftext">
+            <br>
+            <h2>Here is some text, so you can scroll and see the div with a fixed position example.</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, atque exercitationem architecto assumenda in animi placeat, ut deleniti porro recusandae doloribus molestias delectus eligendi explicabo et modi perferendis itaque? Consequatur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab ducimus vero quasi dicta saepe vel officiis suscipit tempora, unde laborum, dolorem, minus assumenda veniam libero odio commodi officia modi porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi sed inventore nobis fugit. Facere laborum ad natus! Labore quod, necessitatibus harum, dicta non doloremque, dolor ea ad qui ullam ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nulla ullam reiciendis labore incidunt modi dicta unde, repellendus soluta nam corporis amet rerum recusandae dolore quasi praesentium quos fuga qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, optio nulla! Placeat cum odit magni nemo laborum, soluta eos provident ipsam voluptas tenetur labore unde optio nisi nesciunt asperiores cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab beatae ipsa facere aspernatur molestiae. Consectetur sunt officiis quos voluptas eveniet accusamus maiores possimus minus, magni, repellendus atque ipsa rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio odit sint quibusdam impedit enim accusantium quaerat, possimus eveniet, fugit veritatis modi cupiditate expedita, repellendus vel? Rerum porro eos libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta dolor voluptatibus assumenda eligendi, eos quidem reiciendis ratione sed ab tenetur maiores asperiores dolorum quisquam! Sit expedita quasi neque velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed iure quisquam accusamus quas fuga temporibus eos ducimus excepturi repudiandae, recusandae quibusdam voluptates reiciendis maiores similique. Consequatur omnis alias nihil nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint blanditiis culpa possimus voluptates non! Soluta corporis atque, minus nobis nisi rerum velit dolor id, veniam quae quam recusandae repellendus saepe!Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur delectus saepe placeat vitae optio doloribus id a atque esse, molestias voluptatibus minima voluptates repudiandae ut ipsum. Quas eligendi voluptatum mollitia! lore
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem, odit a quaerat sit nostrum ratione obcaecati ipsam illum laboriosam voluptas quae vitae architecto eaque nesciunt, repellat fuga voluptatum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi mollitia sunt magnam tempora at cum dolores distinctio quis perferendis voluptas, ex nulla odio? Exercitationem cumque nostrum ea dolorum aliquid suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium laboriosam dolorum, voluptatem quos amet molestias error nemo, possimus libero ipsa placeat deserunt aliquid cupiditate! Libero accusantium expedita nobis sequi dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores labore velit, perspiciatis aliquid totam aperiam perferendis sequi eum quas, ullam quae eaque ipsum alias! Vel fugit reiciendis pariatur fuga? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate accusamus qui necessitatibus tenetur! Nesciunt molestias minima mollitia eum! Magnam necessitatibus nostrum ut reprehenderit quis dignissimos impedit quia ducimus quod? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio architecto voluptatem tenetur, vero sequi ullam? Ipsam nostrum sequi rem doloribus, nobis molestias illo, nisi eius ex accusamus quod odio magni? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, et provident nam mollitia illo eaque reiciendis assumenda. Error, laborum, excepturi inventore corporis vero vel eum, eligendi odit officia dolor sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ex totam, vitae odit cumque quibusdam, natus accusamus unde, soluta officiis voluptatem provident. Ipsa ducimus repellendus quidem, nobis fuga fugit? Rem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dicta culpa aliquid adipisci laborum doloremque et, voluptatem animi eligendi nisi magnam nihil perferendis omnis, ullam dolorem porro. Ratione, temporibus corrupti! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ipsum debitis adipisci. Reprehenderit esse nulla, iusto eos cupiditate itaque, reiciendis, veritatis numquam aperiam libero rerum nihil labore quasi a dignissimos! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quo animi dolor quae iure, distinctio consectetur odit aliquid inventore tempore, dolores excepturi necessitatibus quod corrupti laboriosam, nemo nulla quas veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, assumenda! Molestias magni eaque culpa animi sequi corporis! Cum veniam tenetur illum, sit obcaecati ratione molestiae maiores. Nemo qui placeat quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, fuga molestiae culpa laborum rem, a odio dolorem, quod neque aut libero delectus eaque ullam debitis sed voluptates architecto cum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, perferendis incidunt. Sint accusamus asperiores quisquam blanditiis quas in, temporibus aliquid cupiditate vel, ad nesciunt nihil accusantium voluptas animi? Illum, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis autem modi error perferendis magni dolore sapiente reprehenderit eum aut assumenda cumque tenetur molestias, at impedit quisquam aperiam. Harum, eius necessitatibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum voluptate blanditiis nisi distinctio qui voluptatibus eaque, saepe dolor doloremque ducimus laborum quisquam fugit, neque dolorem obcaecati placeat, quibusdam perferendis odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis praesentium omnis dicta sit. Praesentium perferendis fuga ex veniam voluptatum excepturi tempora asperiores. In asperiores, quia architecto voluptates eum laboriosam quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti sapiente dignissimos dolore dolores quas natus esse ea ipsa, temporibus voluptate repellat architecto at nam nulla eum totam officiis ratione earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur dolore, incidunt dolor voluptatum fugit distinctio soluta laudantium nemo. Porro error consequatur iure beatae ut quidem a sapiente expedita accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eligendi culpa ullam, magni veritatis quas tenetur commodi, incidunt sit sunt placeat rerum odit tempore? Maxime ab vitae et cupiditate quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab natus laudantium inventore nam blanditiis architecto eos voluptate. Expedita odit ipsam nemo facere labore explicabo minus temporibus mollitia eaque possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem sapiente tenetur at, laboriosam incidunt impedit ab deleniti harum eum eligendi. Officia nesciunt quam reiciendis dignissimos expedita impedit error doloremque incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque qui culpa ea officiis, fugiat impedit assumenda enim, nihil tempora soluta sapiente. Deleniti quis est impedit porro vitae assumenda adipisci laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veniam in ea earum dolore ducimus. Consequatur cupiditate id voluptate non fuga facere sequi consectetur repellat minima sed. Exercitationem, repellat neque.
+            </p>
+            <br>
+        </div>
+    </div>  
+</body>
+</html>
